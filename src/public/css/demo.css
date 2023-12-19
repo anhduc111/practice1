@@ -1,0 +1,262 @@
+body{
+  height:100vh;
+}
+
+ /* MODAL */
+ .modal, .modal1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* CHECK */
+#datacheck1{
+  color:White;
+  font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+/* HIDE */
+.hide,.hideInfor,.hideAcc,.hideRecharge,.hideMonthly {
+  display: none;
+}
+#Sign-Log,.InForRecharge{
+  display:none;
+}
+/* INPUT */
+.input{
+  height:25px;
+  border-radius:5px;
+}
+/* INNER */
+.modal__inner, .modal__inner1,.Infor-inner,.Recharge-inner,.Monthly-inner {
+  width: 450px;
+  border-radius: 5px;
+  overflow: hidden;
+  animation: showModal linear 0.2s;
+  position: relative;
+  margin: 200px auto;
+}
+.modal__inner, .modal__inner1 {
+  background-color: #000015;
+}
+.Infor-inner,.Recharge-inner,.Monthly-inner {
+  text-align: center;
+  background-color: #b10edddb;
+}
+@keyframes showModal {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+/* BUTTON */
+.button{
+  color:white;
+  background-color: #343537;
+  margin: 0px 10px 0 0;
+  padding:7px;
+  border: 0px;
+  border-radius: 6px;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+/* MODAL HEADER */
+.modal__header,.modal__header1 {
+  background-color: #e26e70;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  font-size: 17px;
+}
+.Log{
+  font-size: 20px;
+  margin:0 5px;
+}
+i {
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 15px;
+}
+.modal__body,.modal__body1 {
+  padding: 15px;
+}
+.modal__body h2, .modal__body1 h2 {
+  color: var(--pink-color);
+  margin-bottom: 10px;
+}
+.modal__footer,.modal__footer1 {
+  padding: 15px;
+  text-align: right;
+}
+.modal__footer button, .modal__footer1 button {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  background-color: #343537;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+label{
+  color:white;
+}
+/* END MODAL */
+
+/* ACCOUNT */
+  .infor,.account,.Recharge,.Monthly{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+.account-inner{
+  width: 200px;
+  text-align: center;
+  height:200px;
+  background-color: white;
+  border:2px solid #0a0a0a52;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  float:right;
+  margin:35px 25px 0 0;
+}
+.acc-btn{
+  background-color:white;
+  font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+  width:100%;
+  margin: 0 auto;
+  height: 25%;
+  border:none;
+  outline:none;
+  text-decoration:none;
+  display:block;
+  color:black;
+}
+.acc-btn:hover {
+  background-color:#3c3a3a15;
+}
+.acc-a:hover {
+  background-color:#3c3a3a15;
+}
+.acc-a{
+  background-color:white;
+  font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 13px;
+  text-decoration:none;
+  height:11%;
+  padding:7% 0;
+  color:black;
+  display:block;
+}
+/* INFORMATION */
+.text-infor{
+  color:white;
+}
+/* END ACCOUNT */
+
+/* NAVBAR */
+#navbar{
+  position:fixed;
+  top:0;
+  background-color:#282A35;
+  height: 32px;
+  width:100%;
+}
+#d1{
+  display:inline;
+}
+#d2{
+  display:inline;
+  float:right;
+}
+#d1 a,#d2 a{
+  display:inline-block;
+  background-color:#282A35;
+  color:White;
+  padding:7px 10px;
+  margin: none;
+  border:none;
+  font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+  text-decoration:none;
+}
+#btn{
+  border:none;
+  outline:none;
+  background-color: #282A35;
+  color:white;
+  padding:7px 10px;
+  font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+#img{
+  width: 30px;
+  float:left;
+}
+/* END NAVBAR */
+
+/* SEARCH */
+#search{
+  position:fixed;
+  margin-top:32px;
+  float:left;
+  height:94%;
+  width:20%;
+  text-align:center;
+  overflow:auto;
+}
+.p{
+  font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+  padding:5px;
+  margin:0 10px 0 0;
+}
+.p:hover {
+background-color:#00000015;
+}
+/* END SEARCH */
+
+/* BOX CENTER */
+
+#box-center{
+  float:right;
+    width:80%;
+      margin-top:32px;
+  }
+#d3{
+  margin-left:5px;
+  position:relative;
+  float:left;
+  width:65%;
+}
+#img1{
+  width:40vw;
+  margin:10px;
+  position:relative;
+  transition:all 1s;
+}
+#box-right{
+  position:relative;
+  float:right;
+  top:0;
+  width:30%;
+}
+.img-advertisement{
+  width:90%
+}
+/* END BOX CENTER */
+
+/* FOOTER */
+footer{
+  text-align:center;
+  float:right;
+  width:77vw;
+  background-color: #282A35;
+  color:white;
+}
+/* END FOOTER */
